@@ -26,3 +26,43 @@ A présent vous n'êtes plus dans votre branche main (branche principale) mais v
 Votre objectif à présent est de faire de ce point de sauvegarde une nouvelle branche pour que vous puissiez ensuite la fusionner avec votre branche principale. C'est à dire faire de cette branche de restauration votre branche main.
 
 **C'est vous de créer la suite de cette procedure de restauration**  
+
+Il faut d'abord créer une nouvelle branche et le nommer
+
+![Screenshot Historique](Historique.jpg)
+
+Ensuite, une fois la branche créer, aller dans l'historique des commits
+
+![Screenshot Historique](Historique.jpg)
+
+Choisir le commit qu'on veut restaurer
+
+![Screenshot Historique](Historique.jpg)
+
+Faire view page et copier le contenu du fichier de l'ancien commit
+
+![Screenshot Historique](Historique.jpg)
+
+Le coller dans le fichier de la nouvelle branche 
+
+![Screenshot Historique](Historique.jpg)
+
+Faire un commit change pour valider les modifications 
+
+![Screenshot Historique](Historique.jpg)
+
+Créer une pull request 
+
+![Screenshot Historique](Historique.jpg)
+
+Séléctionner la branche de restauration comme branche de comparaison et la branche main comme branche de base
+
+![Screenshot Historique](Historique.jpg)
+
+Ajouter un titre, une description à la pull request
+
+![Screenshot Historique](Historique.jpg)
+
+Enfin de fusionner la Pull request 
+
+
